@@ -1,0 +1,104 @@
+html {
+	font-family: 'Quicksand', sans-serif;
+}
+
+body {
+	margin-top: 200px;
+}
+
+.mainbody {
+	width: 600px;
+	position: absolute;
+	margin-left: -160px;
+	left: 40%;
+	background-color: #FFF;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.resize {
+	width: 273px;
+	height: auto;
+}
+
+
+.textbox {
+	background-image: url('../google-homepage/images/minilogo.png');
+	background-repeat: no-repeat;
+	background-size: 23px 25px;
+	background-position: center right 10px;
+	width: 550px; height: 42px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #b9b9b9;
+	box-shadow: 0px 2px 2px #e0dcde;
+}
+
+.wrapper {
+	text-align: center;
+}
+
+button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.buttoncustom {
+	border-radius: 1.5px;
+	width: 150px;
+	height: 38px;	
+	background-color: #F1F1F1;
+	border: 1px solid #F1F1F1;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: bold;
+	color: grey;
+	font: helvetica;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+}
+
+.footerleft {
+	width: 50%;
+	float: left;
+	display: inline;
+}
+
+.footerright {
+	width: 50%;
+	float: right;
+	display: inline;	
+}
+
+a {
+	color: #636262;
+	text-decoration: none;	
+}
+
+.footerlefttext {
+	font-size: 13px;
+	font-family: 'Arial', sans-serif;
+	position: relative;
+	float: left;
+	padding-right: 30px;
+}
+
+.footerrighttext {
+	font-size: 13px;
+	font-family: 'Arial', sans-serif;
+	position: relative;
+	float: right;
+	padding-left: 30px;
+}
